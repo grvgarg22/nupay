@@ -163,12 +163,12 @@ footer {
 		.nu_section_7 {margin-bottom: 6rem; height: auto; overflow: auto;
 			.section-title {color: $primary-color; font-family: $raleway; font-weight: 600; font-size: 1rem; padding: 1rem;}
 			.row {margin: 3rem 0;
-				.col-3 {padding-right: 0;
+				.col-12.col-lg-3 {padding-right: 0;
 					.nav-link.active {color: $primary-color; font-family: $poppins; font-weight: 600; background-color: #fff; box-shadow: -4px 0px 4px 1px #ccc; border-radius: 0; z-index:1; margin-right: 0;}
 					.nav-link {color: #666; font-family: $poppins; padding: 1rem 0 1rem 1rem; border-bottom: 1px solid #ddd; border-radius: 0; margin-right: 2rem;}
 					.nav-link:first-child {margin-top: 0;}
 				}
-				.col-9 {padding-left: 0;
+				.col-12.col-lg-9 {padding-left: 0;
 					.tab-content {padding: 1rem; box-shadow: 0px 0px 4px 1px #ccc; border: none; margin-left: 0px; z-index: 0;
 						.card {border: none;
 							.card-body {padding: 1rem;
@@ -442,7 +442,11 @@ $breakpoint-phone-xl: 560px;
 	.nu_home_page .container-fluid .container .nu_section_1 {padding: 1rem 0;}
 	.nu_home_page .container-fluid .container .nu_section_1 .card img {width: 80%; margin: 1rem auto;}
 	.nu_home_page .container-fluid .container .nu_section_1 .card-body,
-	.nu_home_page .container-fluid .container .nu_section_2 .card-body {padding: 0;}
+	.nu_home_page .container-fluid .container .nu_section_2 .card-body,
+	.nu_home_page .container-fluid .container .nu_section_3 .card-body,
+	.nu_home_page .nu_section_5 .card .card-body,
+	.nu_home_page .container .nu_section_6 .card-body,
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body {padding: 0;}
 
 	.nu_home_page .container-fluid .container .nu_section_1 .nu_latest span {padding: 2px 8px; font-size: 0.8rem;}
 	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 {font-size: 1.5rem; margin: 1rem 0 1rem;}
@@ -451,9 +455,42 @@ $breakpoint-phone-xl: 560px;
 	.nu_home_page .container-fluid .container .nu_section_1 a {border-bottom: 1px solid #000; margin-top: 1rem;}
 	.nu_home_page .container-fluid .container .nu_section_1 {margin-bottom: 6rem;}
 
-	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a {margin-bottom: 2rem;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a,
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b {margin-bottom: 2rem;}
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card .card-title {font-size: 1.5rem; margin: 1rem 0;}
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card p {font-size: 1rem; margin-bottom: 1.5rem;}
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card {margin-bottom: 1.5rem;}
-	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card .card-body {padding: 0rem;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card .card-body,
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card span {padding: 0rem;}
+
+	.nu_home_page .container-fluid .container .nu_section_3 {padding: 2rem 0; margin-bottom: 2rem;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {font-size: 1.5rem; width: 70%; margin-bottom: 1rem;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card ul li .nu_counter {width: 2rem; height: 2rem; font-size: 1rem; padding: 3px; margin-top: 0.5rem;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card ul li {font-size: 1.2rem; margin: 0.5rem 0; width: auto;}
+
+	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body h3 {font-size: 1.5rem; margin-bottom: 2rem;}
+	.nu_home_page .nu_section_5 {padding: 4rem 0;}
+	.nu_home_page .nu_section_5 .card {margin-bottom: 2rem;}
+
+	.nu_home_page .container .nu_section_6 {padding: 0; margin: 4rem 0;}
+	.nu_home_page .container .nu_section_7 {margin: 3rem 0;}
+	.nu_home_page .container .nu_section_7 .row {margin: 2rem 0 0 0;}
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-3,
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-9 {padding: 0;}
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-3 .nav-link.active {box-shadow: 0px 0px 9px -2px #ccc;}
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-3 .nav-link {margin-right: 0;}
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-9 .tab-content {padding: 1rem; box-shadow: 0px 0px 5px 1px #ccc; margin: 1.5rem 0.3rem;}
+
+	.nu_home_page .nu_section_8 {padding: 4rem 0;}
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body h5 {font-size: 1.5rem; margin: 0.5rem 0;}
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body .btn {margin: 0 0 2rem 0;}
+
+	footer .nu_footer_body .card .brand-logo {margin-bottom: 4rem;}
+	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a {padding-right: 1rem;}
+	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a h3 {font-size: 1.5rem; margin-bottom: 0;}
+	footer .nu_footer_body .nu_footer_sec_2 {margin: 1rem 0 0 0;}
+	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 7rem; margin: 0.5rem 0;}
+	footer .nu_footer_end span {margin-bottom: 2rem;}
+
 }
+
