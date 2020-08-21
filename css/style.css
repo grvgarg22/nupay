@@ -332,7 +332,7 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
   footer .nu_footer_body .nu_footer_sec_2 { margin: 1rem 0 0 0; }
   footer .nu_footer_body .nu_footer_sec_2 ul li { width: 7rem; margin: 0.5rem 0; }
   footer .nu_footer_end span { margin-bottom: 2rem; }
-  .nu_industry_page .container { width: 100%; }
+  .nu_industry_page .container { max-width: 100%; }
   .nu_industry_page .nu_industry_banner .card .card-img-overlay { padding: 1rem; margin: 1rem; }
   .nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper { width: 100%; }
   .nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper p { font-size: 1rem; margin: 0; }
