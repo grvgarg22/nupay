@@ -442,6 +442,11 @@ $breakpoint-phone-xl: 560px;
 	.nu_home_page .nu_section_5 .card img,
 	.nu_home_page .nu_section_8 .nu_section_8b .card {padding-right:1rem;}
 	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 6rem;}
+
+	.nu_industry_page .container {max-width: 100%; width: 100%;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay {margin: 3rem 0;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper {width: 67%;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper .btn {background-color: #333; color: #fff;}
 } 
 
 @media only screen and (min-width: 551px) and (max-width: $breakpoint-tablet-xl) {
@@ -464,6 +469,24 @@ $breakpoint-phone-xl: 560px;
 	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a h3 {font-size: 2.5rem; margin-bottom: 1rem;}
 	footer .nu_footer_body .nu_footer_sec_2 {margin-top: 3rem;}
 	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 7rem; margin: 0.2rem 0;}
+
+	.nu_industry_page .container {max-width: 100%; width: 100%;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay {padding: 0.5rem; margin: 4rem; line-height: 1.4;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper {width: 100%;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper p {font-size: 1.5rem; margin: 1rem 0;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper .btn {padding: 5px 10px; margin: 5px; background-color: #333; color: #fff;}
+	.nu_industry_page .nu_section_1 {margin: 2rem 0;}
+	.nu_industry_page .nu_section_1 .row {margin-bottom: 2rem;}
+	.nu_industry_page .nu_section_1 .row:last-child {margin-bottom: 0;}
+	.nu_industry_page .nu_section_2 .section-title {padding: 1rem;}
+	.nu_industry_page .nu_section_1 .row .card .card-body {padding: 0;}
+	.nu_industry_page .nu_section_2 .card img {padding: 1.5rem 0.5rem; width: 100%;}
+	.nu_industry_page .nu_section_2,
+	.nu_industry_page .nu_section_3 {padding: 2rem 1rem; margin: 2rem 0;}
+	.nu_industry_page .nu_section_3 .nu_speech_bubble {width: 100%; padding: 1rem; margin-bottom: 2rem;}
+	.nu_industry_page .nu_section_3 .nu_author {width: 80%;}
+	.nu_industry_page .nu_section_4 {padding: 2rem 0;}
+	.nu_industry_page .nu_section_4 .nu_section_4b form {padding: 1rem;}
 }
 
 @media only screen and (max-width: $breakpoint-phone-xl) {
