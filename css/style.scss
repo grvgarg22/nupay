@@ -22,9 +22,9 @@ footer {
 			.brand-logo {width: 6rem;}
 		}
 		.nu_footer_sec_1 {height: auto; overflow: auto;
-			.nu_footer_sec_1a {float: left; border-bottom: 2px solid #666; padding-right: 5rem;
+			.nu_footer_sec_1a {float: left; border-bottom: 2px solid #fff; padding-right: 5rem;
 				h3 {font-family: $raleway; font-weight: 700; color: $primary-color; font-size: 3rem; margin-bottom: 2rem;}
-				p {font-family: $raleway; font-weight: 600; color: #c1c1c1; font-size: 1rem;}
+				p {font-family: $raleway; font-weight: 600; color: #fff; font-size: 1rem;}
 			}
 			.nu_footer_sec_1b {float: right;
 				ul {list-style: none; padding: 0;
@@ -35,14 +35,14 @@ footer {
 			}
 		}
 		.nu_footer_sec_2 {margin: 5rem 0 0 0;
-			p {font-family: $raleway; font-weight: 500; color: #c1c1c1; font-size: 1rem; padding-right: 2rem;}
+			p {font-family: $raleway; font-weight: 500; color: #fff; font-size: 1rem; padding-right: 2rem;}
 			ul {list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: space-between;
 				li {width: 8rem; margin: 0.5rem 0;
-					a {color: #666; font-family: $raleway; font-weight: 500; font-size: 0.8rem;}
+					a {color: #a5a5a5; font-family: $raleway; font-weight: 500; font-size: 0.8rem;}
 				}
 			}
 		}
-		.copyright {font-family: $raleway; font-weight: 500; color: #666; font-size: 1rem;}
+		.copyright {font-family: $raleway; font-weight: 500; color: #666767; font-size: 1rem;}
 	}
 	.nu_footer_end {padding: 2rem 0;
 		p {font-family: $raleway; font-weight: 500; color: #666; font-size: 0.8rem; float: left;}
@@ -103,9 +103,9 @@ footer {
 			}
 			.nu_section_4 {margin-bottom: 3rem;
 				.card {border: none; border-radius: 0;
-					.card-body {padding: 1rem 0;
-						h3 {font-family: $raleway; font-weight: 300; font-size: 2.5rem; margin-bottom:2rem; text-align: center;}
-						div {display: inline-flex; flex-wrap: wrap; justify-content: space-between; transform: scale(.75);}
+					h3 {font-family: $raleway; font-weight: 300; font-size: 2.5rem; margin-bottom:2rem; text-align: center;}
+					.card-body {padding: 1rem 0; display: flex; flex-wrap: wrap; justify-content: space-evenly;
+						div {transform: scale(.75);}
 						#nu_img_1 {background: url("../img/companies.jpg") 0 11.5rem; width: 8rem; height: 4rem;}
 						#nu_img_2 {background: url("../img/companies.jpg") -10rem 11.5rem; width: 10rem; height: 4rem;}
 						#nu_img_3 {background: url("../img/companies.jpg") -22rem 11.5rem; width: 8rem; height: 4rem;}
@@ -142,7 +142,7 @@ footer {
 			}
 			.nu_section_6b{
 				.card {border: none; border-radius: 0;
-					.card-body {padding: 1rem 0; display: flex; flex-wrap: wrap; justify-content: space-between; 
+					.card-body {padding: 1rem 0; display: flex; flex-wrap: wrap; justify-content: space-evenly; 
 						div {transform: scale(.8);}
 						#nu_img_9 {background: url(../img/partners.jpg) -2rem -3rem; width: 11.5rem; height: 3rem;}
 						#nu_img_10 {background: url(../img/partners.jpg) -16rem -3rem; width: 10.5rem; height: 3rem;}
@@ -429,6 +429,52 @@ $breakpoint-phone-xl: 560px;
 
 /*********************** MEDIA QUERIES ***********************/
 
+@media only screen and (min-width: 1440px) {
+	.container {max-width: 85%;}
+	.nu_home_page .container-fluid .container .nu_section_1 {margin-bottom: 32rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 {font-size: 4rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a p {font-size: 1.8rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a button {font-size: 1.5rem; padding: 0.375rem 2rem; margin: 1rem 0;}
+	.nu_home_page .container-fluid .container .nu_section_2 {margin-top: 3rem;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card .card-title,
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body h5 {font-size: 2.5rem;}
+
+	.nu_home_page .container-fluid .container .nu_section_1 a,
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card p,
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card a.btn,
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card .card-body .card-title,
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card a,
+	.nu_home_page .nu_section_5 .card .card-body a,
+	.nu_home_page .container .nu_section_6 .nu_section_6a .card p,
+	.nu_home_page .container .nu_section_6 .nu_section_6a .card a,
+	.nu_home_page .container .nu_section_7 .section-title,
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-9 .tab-content .card .card-body h5,
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body .section-title,
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body ul li a {font-size: 1.5rem;}
+
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card {margin-bottom: 3rem;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {font-size: 2.8rem;}
+	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body div,
+	.nu_home_page .container .nu_section_6 .nu_section_6b .card .card-body div {transform: scale(1); margin: 1rem;}
+
+	.nu_home_page .nu_section_5 .card .card-body .card-title,
+	.nu_home_page .container .nu_section_6 .nu_section_6a .card .card-title {font-size: 2rem;}
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-3 .nav-link {font-size: 1.2rem;}
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body .btn {font-size: 1rem;}
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body ul {margin: 2.5rem 0;}
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body ul li {margin: 1rem 0;}
+
+	footer .nu_footer_body .card .brand-logo {width: 9rem;}
+	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a h3 {font-size: 4rem;}
+	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a p {font-size: 1.8rem;}
+	footer .nu_footer_body .nu_footer_sec_2 p {padding-right: 4rem; font-size: 1.5rem;}
+	footer .nu_footer_body .nu_footer_sec_2 ul li a {font-size: 1rem}
+	footer .nu_footer_body .copyright {font-size: 1.2rem;}
+	footer .nu_footer_end p, footer .nu_footer_end span {font-size: 1rem;}
+
+}
+
+
 @media only screen and (min-width: 1021px) and (max-width: $breakpoint-laptop) {
 	.nu_home_page .container {max-width: 100%;}
 	.nu_home_page .container-fluid .container .nu_section_1 {margin-bottom: 15rem;}
@@ -542,7 +588,7 @@ $breakpoint-phone-xl: 560px;
 	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {font-size: 1.5rem; width: 70%; margin-bottom: 1rem;}
 	.nu_home_page .container-fluid .container .nu_section_3 .card ul li .nu_counter {width: 2rem; height: 2rem; font-size: 1rem; padding: 3px; margin-top: 0rem;}
 	.nu_home_page .container-fluid .container .nu_section_3 .card ul li {font-size: 1.2rem; margin: 0.5rem 0; width: auto;}
-	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body h3 {font-size: 1.5rem; margin-bottom: 2rem;}
+	.nu_home_page .container-fluid .container .nu_section_4 .card h3 {font-size: 1.5rem; margin-bottom: 2rem;}
 	.nu_home_page .nu_section_5 {padding: 4rem 0;}
 	.nu_home_page .nu_section_5 .card {margin-bottom: 2rem;}
 	.nu_home_page .nu_section_5 .card .card-body .card-title {font-size: 1.5rem;}
