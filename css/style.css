@@ -312,7 +312,32 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
   .nu_industry_page .nu_section_3 .nu_speech_bubble { width: 100%; padding: 1rem; margin-bottom: 2rem; }
   .nu_industry_page .nu_section_3 .nu_author { width: 80%; }
   .nu_industry_page .nu_section_4 { padding: 2rem 0; }
-  .nu_industry_page .nu_section_4 .nu_section_4b form { padding: 1rem; } }
+  .nu_industry_page .nu_section_4 .nu_section_4b form { padding: 1rem; }
+  .nu_product_page .container { max-width: 100%; }
+  .nu_product_page .nu_section_1 { margin: 2rem 0; }
+  .nu_product_page .nu_section_1 .nu_section_1a .card-body { padding: 0; }
+  .nu_product_page .nu_section_1 .nu_section_1a .card-title { font-size: 1.5rem; }
+  .nu_product_page .nu_section_1 .nu_section_1a .btn-primary { padding: 0.5rem; }
+  .nu_product_page .nu_section_1 .nu_section_1b { margin-top: 1rem; }
+  .nu_product_page .nu_section_2 { padding: 0.5rem; margin: 2rem 0; }
+  .nu_product_page .nu_section_2 .carousel-inner .card { margin-bottom: 2rem; }
+  .nu_product_page .nu_section_2 .carousel-control-next, .nu_product_page .nu_section_2 .carousel-control-prev { top: 46%; bottom: 46%; width: 2.5rem; }
+  .nu_product_page .nu_section_3 { margin: 2rem 0; }
+  .nu_product_page .nu_section_3 .row { margin: 0; }
+  .nu_product_page .nu_section_3 .row .col-md-6 { padding: 0; }
+  .nu_product_page .nu_section_3 .card .card-body { margin: 1rem 0 3rem 0; padding: 0; }
+  .nu_product_page .nu_section_3 .card .card-body .card-title { margin-bottom: 1rem; }
+  .nu_product_page .nu_section_3 .card .card-body h4 { font-size: 1.5rem; }
+  .nu_product_page .nu_section_3 .card .card-body ul { padding: 0.5rem 1rem; }
+  .nu_product_page .nu_section_4 { width: 100%; margin: 3rem auto; padding: 0rem 1rem; }
+  .nu_product_page .nu_section_5 .card .card-body div { transform: scale(1); margin: 1rem; }
+  .nu_product_page .nu_section_6 .card { width: 100%; }
+  .nu_product_page .nu_section_6 .card .card-body .card-title { font-size: 1.5rem; }
+  .nu_product_page .nu_section_7 .row .col-12 { padding: 0; }
+  .nu_product_page .nu_section_7 .row .col-12.col-md-5.col-lg-4 .nav-link { margin-right: 0; }
+  .nu_product_page .nu_section_7 .row .col-12.col-md-5.col-lg-4 .nav-link.active { box-shadow: 0px 0px 4px 1px #ccc; }
+  .nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body { padding: 0; }
+  .nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body h5 { width: 100%; } }
 @media only screen and (max-width: 560px) { .nu_home_page { background-position-y: 31rem; }
   .nu_home_page .container-fluid .container .nu_section_1 { padding: 1rem 0; }
   .nu_home_page .container-fluid .container .nu_section_1 .card img { width: 80%; margin: 1rem auto; }
