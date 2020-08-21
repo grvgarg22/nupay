@@ -221,8 +221,8 @@ footer {
 			.card-img-overlay {height: auto; overflow: auto; display: flex; align-items: baseline; justify-content: center; text-align: center; margin: 4rem 0;
 				.nu_overlay_wrapper {width: 50%;
 					h5 {font-family: $raleway; font-weight: 500;}
-					p {font-family: $raleway; font-size: 2rem; font-weight: 600; margin: 2rem 0;}
-					.btn {padding: 0.5rem 2.5rem; font-family: $raleway; font-weight: 500; margin: 0.5rem;}
+					p {font-family: $raleway; font-size: 2rem; font-weight: 700; margin: 2rem 0;}
+					.btn {padding: 0.5rem 2.5rem; font-family: $raleway; font-weight: 500; margin: 0.5rem; color: #000; border-color: #000;}
 				}
 			}
 		}
@@ -471,6 +471,33 @@ $breakpoint-phone-xl: 560px;
 	footer .nu_footer_body .nu_footer_sec_2 ul li a {font-size: 1rem}
 	footer .nu_footer_body .copyright {font-size: 1.2rem;}
 	footer .nu_footer_end p, footer .nu_footer_end span {font-size: 1rem;}
+
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay {margin: 3rem 0;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper {width: 60%;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper p {font-size: 3rem;}
+
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper h5,
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper .btn,
+	.nu_industry_page .nu_section_2 .section-title,
+	.nu_industry_page .nu_section_3 .card .card-body h3,
+	.nu_industry_page .nu_section_3 .nu_author .card .card-body h5,
+	.nu_industry_page .nu_section_3 .btn,
+	.nu_industry_page .nu_API .card .card-title,
+	.nu_industry_page .nu_API .card .btn,
+	.nu_industry_page .nu_section_4 .nu_section_4a .card .card-body p,
+	.nu_industry_page .nu_section_4 .nu_section_4b form .btn {font-size: 1.5rem;}
+	
+	.nu_industry_page .nu_section_1 .card .card-title,
+	.nu_industry_page .nu_section_1 .card p,
+	.nu_industry_page .nu_section_2 .card .card-body .card-text,
+	.nu_industry_page .nu_section_3 .nu_speech_bubble p {font-size: 1.2rem;}
+	.nu_industry_page .nu_section_2 .card .card-body .card-title {font-size: 1.8rem;}
+	.nu_industry_page .nu_section_3 .card .card-body div {transform: scale(1); margin: 1rem;}
+	.nu_industry_page .nu_section_3 .nu_author .card .card-body p {font-size: 1.1rem;}
+	.nu_industry_page .nu_section_4 .nu_section_4a .card .card-body h5 {font-size: 2rem;}
+	.nu_industry_page .nu_section_4 .nu_section_4b form input {font-size: 1.5rem; margin-bottom: 1rem;}
+	.nu_industry_page .nu_section_4 .nu_section_4b form p {font-size: 1rem;}
+	
 
 }
 
