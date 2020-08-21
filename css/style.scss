@@ -430,11 +430,40 @@ $breakpoint-phone-xl: 560px;
 /*********************** MEDIA QUERIES ***********************/
 
 @media only screen and (min-width: 1021px) and (max-width: $breakpoint-laptop) {
-
+	.nu_home_page .container {max-width: 100%;}
+	.nu_home_page .container-fluid .container .nu_section_1 {margin-bottom: 15rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 {font-size: 2.5rem;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card {margin: 2rem 0;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card .card-body {padding: 0;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {width: 55%;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card ul li {font-size: 1.2rem; margin: 1rem 0; width: 30%;}
+	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body {padding: 1rem 13rem;}
+	.nu_home_page .nu_section_5 .card .card-body .card-title {font-size: 1.5rem;}
+	.nu_home_page .nu_section_5 .card img,
+	.nu_home_page .nu_section_8 .nu_section_8b .card {padding-right:1rem;}
+	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 6rem;}
 } 
 
 @media only screen and (min-width: 551px) and (max-width: $breakpoint-tablet-xl) {
-
+	.nu_home_page .container {max-width: 100%;}
+	.nu_home_page .container-fluid .container .nu_section_1 {padding: 3rem 0; margin-bottom: 10rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 {font-size: 2rem; margin: 1.5rem 0;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a p {font-size: 1.2rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_latest span {padding: 2px 8px; font-size: 0.8rem;}
+	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a button {margin: 1rem 0;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card {margin-bottom: 1.5rem;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {font-size: 2rem; width: 70%;}
+	.nu_home_page .container-fluid .container .nu_section_3 .card ul li {margin: 1rem 0;}
+	.nu_home_page .nu_section_5 .card .card-body .card-title {font-size: 1.2rem;}
+	.nu_home_page .container .nu_section_6 {padding: 0;}
+	.nu_home_page .container .nu_section_7 {margin: 5rem 0;}
+	.nu_home_page .container .nu_section_7 .row {margin: 1rem 0;}
+	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-3 .nav-link {padding: 0.77rem;}
+	.nu_home_page .nu_section_8 .nu_section_8a .card .card-body h5 {font-size: 1.2rem;}
+	.nu_home_page .nu_section_8 .nu_section_8b .card {padding: 1rem 2rem 1rem 1rem;}
+	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a h3 {font-size: 2.5rem; margin-bottom: 1rem;}
+	footer .nu_footer_body .nu_footer_sec_2 {margin-top: 3rem;}
+	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 7rem; margin: 0.2rem 0;}
 }
 
 @media only screen and (max-width: $breakpoint-phone-xl) {
