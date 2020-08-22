@@ -214,7 +214,7 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
 .nu_product_page .nu_section_3 .card .card-body .card-title { font-weight: 700; color: #54c5d0; margin-bottom: 1.5rem; }
 .nu_product_page .nu_section_3 .card .card-body h4 { font-weight: 700; font-size: 1.8rem; }
 .nu_product_page .nu_section_3 .card .card-body ul { padding: 1rem; }
-.nu_product_page .nu_section_3 .card .card-body ul li { color: #333; margin-bottom: 0.8rem; }
+.nu_product_page .nu_section_3 .card .card-body ul li { margin-bottom: 0.8rem; }
 .nu_product_page .nu_section_3 .card .card-body .btn { border-color: #54c5d0; color: #54c5d0; font-weight: 600; font-size: 0.8rem; padding: 0.5rem 1rem; }
 .nu_product_page .nu_section_3 .card .card-body .btn:hover, .nu_product_page .nu_section_3 .card .card-body .btn:focus { background-color: #54c5d0; color: #fff; border-color: #54c5d0; }
 .nu_product_page .nu_section_4 { height: auto; overflow: auto; width: 95%; padding: 1rem; margin: 3rem auto; padding: 0rem 4rem; border: 10px solid #f0fafb; border-radius: 0; }
@@ -296,7 +296,28 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
   .nu_industry_page .nu_section_3 .nu_author .card .card-body p { font-size: 1.1rem; }
   .nu_industry_page .nu_section_4 .nu_section_4a .card .card-body h5 { font-size: 2rem; }
   .nu_industry_page .nu_section_4 .nu_section_4b form input { font-size: 1.5rem; margin-bottom: 1rem; }
-  .nu_industry_page .nu_section_4 .nu_section_4b form p { font-size: 1rem; } }
+  .nu_industry_page .nu_section_4 .nu_section_4b form p { font-size: 1rem; }
+  .nu_product_page .nu_section_1 { margin: 5rem 0; }
+  .nu_product_page .nu_section_1 .card .card-body { padding: 0; }
+  .nu_product_page .nu_section_1 .nu_section_1a .card-title { font-size: 3rem; }
+  .nu_product_page .nu_section_1 .nu_section_1a p, .nu_product_page .nu_section_1 .nu_section_1a ul li a, .nu_product_page .nu_section_2 h4, .nu_product_page .nu_section_3 .card .card-body .card-title { font-size: 1.5rem; }
+  .nu_product_page .nu_section_1 .nu_section_1a .btn { padding: 1rem 1.5rem; }
+  .nu_product_page .nu_section_1 .nu_section_1b { margin-top: 8rem; padding: 0rem; }
+  .nu_product_page .nu_section_2 .carousel-inner .card img { padding: 0; margin-bottom: 1rem; }
+  .nu_product_page .nu_section_2 .carousel-inner .card .card-body .card-title { font-weight: 700; font-size: 1.5rem; }
+  .nu_product_page .nu_section_2 .carousel-inner .card .card-body p { font-size: 1rem; }
+  .nu_product_page .nu_section_2 .carousel-control-next, .nu_product_page .nu_section_2 .carousel-control-prev { top: 40%; bottom: 40%; width: 3.5rem; }
+  .nu_product_page .nu_section_2 .carousel-control-prev { right: 4.5rem; }
+  .nu_product_page .nu_section_3 .card .card-body h4 { font-size: 2.5rem; }
+  .nu_product_page .nu_section_3 .card .card-body ul li, .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card p, .nu_product_page .nu_section_7 .row .col-12.col-md-5.col-lg-4 .nav-link { font-size: 1.2rem; }
+  .nu_product_page .nu_section_3 .card .card-body .btn { font-size: 1.2rem; padding: 1rem 1.5rem; }
+  .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b { margin: 3rem 0; }
+  .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a .card .card-body .card-title { font-weight: 700; font-size: 1.4rem; margin: 0; }
+  .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a .card .card-body p { font-size: 1rem; }
+  .nu_product_page .nu_section_6 .card .card-body .card-title { font-size: 2.4rem; }
+  .nu_product_page .nu_section_6 .card .card-body .btn { padding: 1rem 2rem; }
+  .nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body h5 { width: 70%; }
+  .nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body p { font-size: 1.4rem; } }
 @media only screen and (min-width: 1021px) and (max-width: 1260px) { .nu_home_page .container { max-width: 100%; }
   .nu_home_page .container-fluid .container .nu_section_1 { margin-bottom: 15rem; }
   .nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 { font-size: 2.5rem; }
