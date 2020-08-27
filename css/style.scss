@@ -563,7 +563,9 @@ footer {
 	.nu_home_page .nu_section_8 .nu_section_8b .card {padding: 1rem 2rem 1rem 1rem;}
 	footer .nu_footer_body .nu_footer_sec_1 .nu_footer_sec_1a h3 {font-size: 2.5rem; margin-bottom: 1rem;}
 	footer .nu_footer_body .nu_footer_sec_2 {margin-top: 3rem;}
-	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 7rem; margin: 0.2rem 0;}
+	footer .nu_footer_body .nu_footer_sec_2 ul {justify-content: flex-start;}
+	footer .nu_footer_body .nu_footer_sec_2 ul li {width: 9rem; margin: 0.5rem;}
+	footer .nu_footer_body .nu_footer_sec_2 ul li a {font-size: 1rem;}
 
 	.nu_industry_page .container {max-width: 100%; width: 100%;}
 	.nu_industry_page .nu_industry_banner .card .card-img-overlay {padding: 0.5rem; margin: 4rem; line-height: 1.4;}
