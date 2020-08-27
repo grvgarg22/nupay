@@ -417,6 +417,7 @@ footer {
 
 @media only screen and (min-width: 1540px) {
 	.container {max-width: 85%;}
+	.navbar .navbar-collapse .navbar-nav .nav-item a {font-size: 1.2rem;}
 	.nu_home_page .container-fluid .container .nu_section_1 {margin-bottom: 32rem;}
 	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 {font-size: 4rem;}
 	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a p {font-size: 1.8rem;}
@@ -442,6 +443,9 @@ footer {
 	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {font-size: 2.8rem;}
 	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body div,
 	.nu_home_page .container .nu_section_6 .nu_section_6b .card .card-body div {transform: scale(1); margin: 1rem;}
+
+	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body img {width: 9rem;}
+	.nu_home_page .container .nu_section_6 .nu_section_6b .card .card-body img {width: 12rem;}
 
 	.nu_home_page .nu_section_5 .card .card-body .card-title,
 	.nu_home_page .container .nu_section_6 .nu_section_6a .card .card-title {font-size: 2rem;}
@@ -509,6 +513,8 @@ footer {
 	.nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b {margin: 3rem 0;}
 	.nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a .card .card-body .card-title {font-weight: 700; font-size: 1.4rem; margin: 0;}
 	.nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a .card .card-body p {font-size: 1rem;}
+	.nu_product_page .nu_section_5 .card .card-body .card {width: 10rem;}
+	.nu_product_page .nu_section_5 .card .card-body .card .img-caption {font-size: 1rem;}
 	.nu_product_page .nu_section_6 .card .card-body .card-title {font-size: 2.4rem;}
 	.nu_product_page .nu_section_6 .card .card-body .btn {padding: 1rem 2rem;}
 	.nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body h5 {width: 70%;}
@@ -546,8 +552,10 @@ footer {
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card {margin-bottom: 1.5rem;}
 	.nu_home_page .container-fluid .container .nu_section_3 .card h3 {font-size: 2rem; width: 70%;}
 	.nu_home_page .container-fluid .container .nu_section_3 .card ul li {margin: 1rem 0;}
+	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body img {width: 8rem; margin: 1.5rem;}
 	.nu_home_page .nu_section_5 .card .card-body .card-title {font-size: 1.2rem;}
 	.nu_home_page .container .nu_section_6 {padding: 0;}
+	.nu_home_page .container .nu_section_6 .nu_section_6b .card .card-body img {margin: 1rem;}
 	.nu_home_page .container .nu_section_7 {margin: 5rem 0;}
 	.nu_home_page .container .nu_section_7 .row {margin: 1rem 0;}
 	.nu_home_page .container .nu_section_7 .row .col-12.col-lg-3 .nav-link {padding: 0.77rem;}
@@ -568,6 +576,7 @@ footer {
 	.nu_industry_page .nu_section_2 .section-title {padding: 1rem;}
 	.nu_industry_page .nu_section_1 .row .card .card-body {padding: 0;}
 	.nu_industry_page .nu_section_2 .card img {padding: 1.5rem 0.5rem; width: 100%;}
+	.nu_industry_page .nu_section_2 .card .card-body {padding: 0;}
 	.nu_industry_page .nu_section_2,
 	.nu_industry_page .nu_section_3 {padding: 2rem 1rem; margin: 2rem 0;}
 	.nu_industry_page .nu_section_3 .nu_speech_bubble {width: 100%; padding: 1rem; margin-bottom: 2rem;}
@@ -623,6 +632,7 @@ footer {
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card .card-title {font-size: 1.5rem; margin: 1rem 0;}
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2a .card p {font-size: 1rem; margin-bottom: 1.5rem;}
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card {margin-bottom: 1.5rem;}
+	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card img {padding: 1rem 0;}
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card .card-body,
 	.nu_home_page .container-fluid .container .nu_section_2 .nu_section_2b .card span {padding: 0rem;}
 	.nu_home_page .container-fluid .container .nu_section_3 {padding: 2rem 0; margin-bottom: 2rem;}
@@ -630,6 +640,7 @@ footer {
 	.nu_home_page .container-fluid .container .nu_section_3 .card ul li .nu_counter {width: 2rem; height: 2rem; font-size: 1rem; padding: 3px; margin-top: 0rem;}
 	.nu_home_page .container-fluid .container .nu_section_3 .card ul li {font-size: 1.2rem; margin: 0.5rem 0; width: auto;}
 	.nu_home_page .container-fluid .container .nu_section_4 .card h3 {font-size: 1.5rem; margin-bottom: 2rem;}
+	.nu_home_page .container-fluid .container .nu_section_4 .card .card-body img {width: 9rem;}
 	.nu_home_page .nu_section_5 {padding: 4rem 0;}
 	.nu_home_page .nu_section_5 .card {margin-bottom: 2rem;}
 	.nu_home_page .nu_section_5 .card .card-body .card-title {font-size: 1.5rem;}
@@ -656,15 +667,18 @@ footer {
 	.nu_industry_page .nu_industry_banner .card .card-img-overlay {padding: 0.5rem; margin: 0; line-height: 1.4;}
 	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper {width: 100%;}
 	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper p {font-size: 1rem; margin: 0;}
+	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper h5 {font-size: 1rem;}
 	.nu_industry_page .nu_industry_banner .card .card-img-overlay .nu_overlay_wrapper .btn {padding: 5px 10px; margin: 5px; background-color: #333; color: #fff;}
 	.nu_industry_page .nu_section_1 {margin: 2rem 0;}
 	.nu_industry_page .nu_section_1 .row {margin-bottom: 2rem;}
 	.nu_industry_page .nu_section_1 .row:last-child {margin-bottom: 0;}
-	.nu_industry_page .nu_section_2 .section-title {padding: 1rem;}
+	.nu_industry_page .nu_section_2 .section-title {padding: 1rem 0;}
+	.nu_industry_page .nu_section_2 .card .card-body {padding: 1.25rem 0;}
 	.nu_industry_page .nu_section_1 .row .card .card-body {padding: 0;}
-	.nu_industry_page .nu_section_2 .card img {padding: 0.5rem; width: 30%;}
+	.nu_industry_page .nu_section_2 .card img {padding: 0.5rem; width: 60%;}
 	.nu_industry_page .nu_section_2,
 	.nu_industry_page .nu_section_3 {padding: 2rem 1rem; margin: 2rem 0;}
+	.nu_industry_page .nu_section_3 .card .card-body div img {margin: 1rem;}
 	.nu_industry_page .nu_section_3 .nu_speech_bubble {width: 100%; padding: 1rem; margin-bottom: 2rem;}
 	.nu_industry_page .nu_section_3 .nu_author {width: 100%;}
 	.nu_industry_page .nu_section_4 {padding: 2rem 0;}
