@@ -537,7 +537,7 @@ footer {
 } 
 
 @media only screen and (min-width: 551px) and (max-width: $breakpoint-tablet-xl) {
-	.nu_home_page .container {max-width: 100%;}
+	.container {max-width: 100%;}
 	.nu_home_page .container-fluid .container .nu_section_1 {padding: 3rem 0; margin-bottom: 10rem;}
 	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a h1 {font-size: 2rem; margin: 1.5rem 0;}
 	.nu_home_page .container-fluid .container .nu_section_1 .nu_section_1a p {font-size: 1.2rem;}
