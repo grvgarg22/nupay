@@ -206,7 +206,7 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
 .nu_product_page .nu_section_3 .card .card-body ul li { margin-bottom: 0.8rem; }
 .nu_product_page .nu_section_3 .card .card-body .btn { border-color: #54c5d0; color: #54c5d0; font-weight: 600; font-size: 0.8rem; padding: 0.5rem 1rem; }
 .nu_product_page .nu_section_3 .card .card-body .btn:hover, .nu_product_page .nu_section_3 .card .card-body .btn:focus { background-color: #54c5d0; color: #fff; border-color: #54c5d0; }
-.nu_product_page .nu_section_4 { height: auto; overflow: auto; width: 95%; padding: 1px; margin: 0rem auto; border-radius: 0; position: relative; }
+.nu_product_page .nu_section_4 { height: auto; overflow: auto; width: 95%; padding: 15px; margin: 0rem auto; border-radius: 0; position: relative; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 { height: auto; overflow: auto; padding: 0rem 3rem; border: 10px solid #f0fafb; border-radius: 0; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a { width: 30%; float: left; margin: 2rem 0; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a .card { padding: 2rem 0.5rem; border: none; border-radius: 0; font-family: "Raleway", sans-serif; text-align: center; }
@@ -219,11 +219,20 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card p { font-size: 1rem; position: relative; margin: 2rem 0; padding: 1rem; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card p img { width: 1rem; position: absolute; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card p img:first-child { top: 0; left: 0; }
-.nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card p img:last-child { bottom: 0; right: 0; }
+.nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card p img:last-child { bottom: 1rem; right: 0; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card a { color: #54c5d0; margin: 1rem; font-family: "Raleway", sans-serif; }
 .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card a span { border-bottom: 1px solid #54c5d0; }
-.nu_product_page .nu_section_4::before { content: " "; position: absolute; top: 0; left: 3.5rem; width: 89%; height: 4rem; border-top: 1px solid #54c5d0; border-left: 1px solid #54c5d0; border-right: 1px solid #54c5d0; z-index: 1; }
-.nu_product_page .nu_section_4::after { content: " "; position: absolute; bottom: 0; left: 3.5rem; width: 27%; height: 2rem; border-bottom: 1px solid #54c5d0; border-left: 1px solid #54c5d0; border-right: 1px solid #54c5d0; z-index: 1; }
+.nu_product_page .nu_section_4 .border-circle-lg { position: absolute; right: 15px; top: 15px; height: 1rem; width: 1rem; border-radius: 2rem; background-color: #54c5d0; }
+.nu_product_page .nu_section_4 .border-left-circles { position: absolute; top: 2px; left: 0; overflow: auto; height: auto; display: flex; }
+.nu_product_page .nu_section_4 .border-left-circles div { height: 0.5rem; width: 0.5rem; background-color: #54c5d0; border-radius: 1rem; margin-right: 0.8rem; }
+.nu_product_page .nu_section_4 .border-bottom-right-circles { position: absolute; bottom: 0; right: 0; overflow: auto; height: auto; }
+.nu_product_page .nu_section_4 .border-bottom-right-circles div { height: 0.5rem; width: 0.5rem; background-color: #54c5d0; border-radius: 1rem; margin-bottom: 0.8rem; }
+.nu_product_page .nu_section_4 .border-bottom-right-circles div:last-child { margin-bottom: 0; }
+.nu_product_page .nu_section_4 .border-inner-bottom-right-circles { position: absolute; bottom: 2rem; right: 1.5rem; overflow: auto; height: auto; display: flex; }
+.nu_product_page .nu_section_4 .border-inner-bottom-right-circles div { height: 0.5rem; width: 0.5rem; background-color: #54c5d0; border-radius: 1rem; margin-right: 0.8rem; }
+.nu_product_page .nu_section_4 .border-inner-bottom-right-circles div:last-child { margin-bottom: 0; }
+.nu_product_page .nu_section_4::before { content: " "; position: absolute; top: 13px; left: 3.5rem; width: 89%; height: 4rem; border-top: 2px solid #54c5d0; border-left: 2px solid #54c5d0; border-right: 2px solid #54c5d0; z-index: 1; }
+.nu_product_page .nu_section_4::after { content: " "; position: absolute; bottom: 13px; left: 3.5rem; width: 27%; height: 2rem; border-bottom: 2px solid #54c5d0; border-left: 2px solid #54c5d0; border-right: 2px solid #54c5d0; z-index: 1; }
 .nu_product_page .nu_section_5 { height: auto; overflow: auto; padding: 2rem 1rem; margin: 3rem 0; }
 .nu_product_page .nu_section_5 .card { border: none; border-radius: 0; text-align: center; }
 .nu_product_page .nu_section_5 .card .card-title { font-family: "Raleway", sans-serif; font-size: 1.5rem; font-weight: 600; }
@@ -383,7 +392,8 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
   .nu_product_page .nu_section_3 .card .card-body .card-title { margin-bottom: 1rem; }
   .nu_product_page .nu_section_3 .card .card-body h4 { font-size: 1.5rem; }
   .nu_product_page .nu_section_3 .card .card-body ul { padding: 0.5rem 1rem; }
-  .nu_product_page .nu_section_4 { width: 100%; margin: 3rem auto; padding: 0rem 1rem; }
+  .nu_product_page .nu_section_4 { width: 100%; margin: 3rem auto; padding: 1rem; }
+  .nu_product_page .nu_section_4::before { width: 84%; }
   .nu_product_page .nu_section_5 .card .card-body div { transform: scale(1); margin: 1rem; }
   .nu_product_page .nu_section_6 .card { width: 100%; }
   .nu_product_page .nu_section_6 .card .card-body .card-title { font-size: 1.5rem; }
@@ -467,7 +477,7 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
   .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a { width: 100%; float: none; }
   .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b { width: 100%; float: none; margin: 0rem 0 2rem 0; }
   .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4b .card { padding: 0; }
-  .nu_product_page .nu_section_4 { width: 100%; padding: 0 1rem; }
+  .nu_product_page .nu_section_4 { width: 100%; padding: 1rem; }
   .nu_product_page .nu_section_6 .card { width: 100%; }
   .nu_product_page .nu_section_6 .card .card-body .card-title { font-size: 1.5rem; }
   .nu_product_page .nu_section_7 .row .col-12 { padding: 0; }
@@ -475,7 +485,7 @@ footer .nu_footer_end span { font-family: "Raleway", sans-serif; font-weight: 50
   .nu_product_page .nu_section_7 .row .col-12.col-md-5.col-lg-4 .nav-link.active { box-shadow: 0px 0px 4px 1px #ccc; }
   .nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body { padding: 0; }
   .nu_product_page .nu_section_7 .row .col-12.col-md-7.col-lg-8 .tab-content .card .card-body h5 { width: 100%; }
-  .nu_product_page .nu_section_4::after, .nu_product_page .nu_section_4::before { width: 72%; }
+  .nu_product_page .nu_section_4::after, .nu_product_page .nu_section_4::before { width: 70%; }
   .nu_product_page .nu_section_4 .nu_sub_sec_4 { padding: 0 1rem; }
   .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a { margin: 0; }
   .nu_product_page .nu_section_4 .nu_sub_sec_4 .nu_sub_sec_4a .card { padding: 0 0.5rem; }
